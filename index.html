@@ -216,20 +216,20 @@
     <div class="floating-bg" id="floatingBg"></div>
     <div class="card">
         <div class="penguin-title">
-            happy valentine's day<br>nek khu oun
+            happy valentine's day<br>my lil penguin
         </div>
         <div class="preview-tag"></div>
         <div class="interactive-zone">
-            <button class="heart-toggle-btn" id="heartBtn" aria-label="toggle message">❤️</button>
+            <button class="heart-toggle-btn" id="heartBtn" aria-label="toggle message">🤍</button>
 
-            <div class="hint-text">click ❤️ to open / close</div>
+            <div class="hint-text">click 🤍 to open / close</div>
             <div class="message-slider closed" id="messagePanel">
                 <div class="letter-content">
                     <div class="quote-line">I love u :p </div>
-                    <p>You’re my favorite person, my greatest blessing, and my forever Valentine. No matter what happens, I always want you by my side. If I could make one wish, it would be for more time with you. I’m so lucky to have you in my life.</p>
+                    <p>You’re my favorite person, my greatest blessing, and my forever Valentine. Your heart is so pure, and I admire you more than words can say. Loving you is the best thing that’s ever happened to me, and I’m so lucky to have you</p>
                   <div class="signature">forever ur </div>
                 </div>
-                <div class="editable-note">I love you everyday Phuong</div>
+                <div class="editable-note">I love you everyday Pagnayuk 🤍</div>
             </div>
         </div>
     </div>
@@ -237,7 +237,7 @@
     <script>
         (function() {
             const bg = document.getElementById('floatingBg');
-            const hearts = ['❤️', '❤️', '💗', '💖', '💕', '🩷', ]; 
+            const hearts = ['❤️', '🤍', '💗', '💖', '💕', '🩷', ]; 
             for (let i = 0; i < 30; i++) {
                 const el = document.createElement('div');
                 el.className = 'float-heart';
@@ -260,7 +260,7 @@
             function createBurst(x, y) {
                 for (let i = 0; i < 8; i++) {
                     const burst = document.createElement('div');
-                    burst.textContent = ['❤️','❤️','💗'][Math.floor(Math.random()*4)];
+                    burst.textContent = ['❤️','🤍','❤️','💗'][Math.floor(Math.random()*4)];
                     burst.style.position = 'absolute';
                     burst.style.left = (x - 15 + Math.random()*30) + 'px';
                     burst.style.top = (y - 15 + Math.random()*30) + 'px';
